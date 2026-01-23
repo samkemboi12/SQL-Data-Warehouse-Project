@@ -1,7 +1,7 @@
 -- ==========================================
 -- DATA QUALITY CHECKS IN bronze.crm_cust_info
 -- ==========================================
-
+-- This script confirms data quality after loading
 -- CHECK WE HAVE THE CORRECT DATA TYPES
 
 SELECT COLUMN_NAME, DATA_TYPE 
