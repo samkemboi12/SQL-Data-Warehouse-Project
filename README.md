@@ -31,7 +31,10 @@ The data flow in this project follows a structured and layered approach aligned 
 
 <img width="545" height="337" alt="Data Flow Diagram drawio" src="https://github.com/user-attachments/assets/9b3b7d43-b3e1-49c2-a0be-4a6fda7f0336" />
 
+## Data Model
+The data model in this project is designed using a star schema to support efficient analytical querying and reporting. The Gold layer consists of a central fact table that captures transactional sales data, surrounded by multiple dimension tables that provide descriptive context such as customer and product information. This modeling approach simplifies complex queries, improves query performance, and ensures consistency in business metrics. By separating measurable facts from descriptive attributes, the star schema provides a scalable and analytics-ready foundation for downstream reporting and business intelligence use cases.
 
+<img width="596" height="375" alt="Data_Model(Star_schema) drawio" src="https://github.com/user-attachments/assets/d6f62491-792b-4018-b1d3-7c67a885d840" />
 
 ## Implemented Skills 
 
