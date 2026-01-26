@@ -11,7 +11,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 * **Silver Layer:** Cleansed and standardized data; includes normalization, formatting, and validation to prepare data for analysis.
 * **Gold Layer:** Business-ready data structured into a **star schema**, optimized for reporting, dashboards, and analytical queries.
 
-<img width="721" height="369" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1885b4eb-9f56-4a3b-99bf-c63bb97b9ccc" />
+     <img width="721" height="369" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1885b4eb-9f56-4a3b-99bf-c63bb97b9ccc" />
 
 
 
@@ -28,7 +28,7 @@ This project covers the following:
 ---
 ## Data Flow
 The data flow in this project follows a structured and layered approach aligned with the Medallion Architecture. Raw data is ingested from source systems into the Bronze layer in batch mode and stored without modification to preserve the original records. The data is then processed in the Silver layer, where cleansing, standardization, validation, and enrichment transformations are applied to improve data quality and consistency. Finally, the refined data is loaded into the Gold layer, where it is modeled into business-ready fact and dimension tables optimized for analytical queries and reporting.
-                     <img width="545" height="337" alt="Data Flow Diagram drawio" src="https://github.com/user-attachments/assets/9b3b7d43-b3e1-49c2-a0be-4a6fda7f0336" />
+    <img width="545" height="337" alt="Data Flow Diagram drawio" src="https://github.com/user-attachments/assets/9b3b7d43-b3e1-49c2-a0be-4a6fda7f0336" />
 
 
 
