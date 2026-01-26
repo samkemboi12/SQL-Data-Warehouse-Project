@@ -3,6 +3,22 @@
 ## Project Objective
 The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics-ready environment. The project focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture (Bronze, Silver, and Gold), ensuring the data is accurate, reliable, and well organized for reporting and analysis. As a result, the data warehouse ensures that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
 
+## Project Scope
+
+This project covers the following:
+
+* **Data Architecture Design:** Implement a modern data warehouse with Bronze, Silver, and Gold layers.
+* **ETL Pipelines:** Extract, transform, and load data from multiple source systems.
+* **Data Modeling:** Build **fact and dimension tables** optimized for analysis and reporting.
+  
+**Key Specifications:**
+
+* **Sources:** ERP and CRM CSV files.
+* **Data Quality:** Cleanse, validate, and resolve data issues.
+* **Integration:** Merge both sources into a unified, analysis-ready data model.
+* **Scope:** Latest dataset only; historical tracking is optional.
+* **Documentation:** Include clear documentation for stakeholders and analytics teams.
+
 ## Data Architecture
 
 The project implements the **Medallion Architecture** with **Bronze, Silver, and Gold layers**:
@@ -12,18 +28,6 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 * **Gold Layer:** Business-ready data structured into a **star schema**, optimized for reporting, dashboards, and analytical queries.
 
      <img width="721" height="369" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1885b4eb-9f56-4a3b-99bf-c63bb97b9ccc" />
-
-
-
----
-
-## Project Scope
-
-This project covers the following:
-
-* **Data Architecture Design:** Implement a modern data warehouse with Bronze, Silver, and Gold layers.
-* **ETL Pipelines:** Extract, transform, and load data from multiple source systems.
-* **Data Modeling:** Build **fact and dimension tables** optimized for analysis and reporting.
 
 ---
 ## Data Flow
@@ -53,16 +57,10 @@ All tools used in this project :
 * **Project Dataset:** CSV files from ERP and CRM source systems.
 * **SQL Server Express:** Lightweight relational database server.
 * **SQL Server Management Studio (SSMS):** GUI for database management and query execution.
-* **GitHub Repository:** Version control and collaboration.
-* **Draw.io (diagrams.net):** Design data flows, architecture diagrams, and models.
-* **Notion Template:** Step-by-step project planning and task tracking.
-
+* **GitHub Repository:** Track changes and ensuring that all project files, scripts, and documentation are securely stored and easily accessible.
+* **Draw.io :** Design data flows, architecture diagrams, and models.
+* **Trello:** Planning and progress tracking tool.
 ---
-
-### Data Engineering: Building the Warehouse
-
-**Objective:**
-Consolidate sales data from multiple sources into a **centralized SQL Server warehouse**, enabling robust analytical reporting.
 
 **Key Specifications:**
 
@@ -71,7 +69,6 @@ Consolidate sales data from multiple sources into a **centralized SQL Server war
 * **Integration:** Merge both sources into a unified, analysis-ready data model.
 * **Scope:** Latest dataset only; historical tracking is optional.
 * **Documentation:** Include clear documentation for stakeholders and analytics teams.
-
 ---
 
 ### Data Analysis: BI & Reporting
