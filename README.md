@@ -1,13 +1,7 @@
-# SQL-Data-Warehouse-Project
-This Project builds a data ware house 
-
----
-
 # Data Warehouse Project
-This project creates a complete data warehousing solution, from building a modern data warehouse to deriving actionable business insights.
-
+## Project Objective
+The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics ready environment.The project focuses on data ingestion, cleansing, standardization, and modeling using the Medallion Architecture (Bronze, Silver, Gold), ensuring the data is accurate, reliable, and well-organized for reporting and analysis.<br> Therefore, the data warehouse will ensure that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
 ---
-
 ## Data Architecture
 
 The project implements the **Medallion Architecture** with **Bronze, Silver, and Gold layers**:
@@ -15,6 +9,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 * **Bronze Layer:** Raw, unprocessed data ingested directly from source systems. For this project, CSV files are loaded into **SQL Server**.
 * **Silver Layer:** Cleansed and standardized data; includes normalization, formatting, and validation to prepare data for analysis.
 * **Gold Layer:** Business-ready data structured into a **star schema**, optimized for reporting, dashboards, and analytical queries.
+<img width="1771" height="461" alt="Medallion Archecture Diagram drawio" src="https://github.com/user-attachments/assets/40ab3916-9753-452a-8b39-a2c50b4078c4" />
 
 ---
 
