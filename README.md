@@ -55,7 +55,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 
 <img width="596" height="375" alt="Data_Model(Star_schema) drawio" src="https://github.com/user-attachments/assets/d6f62491-792b-4018-b1d3-7c67a885d840" />
 
-####### *Figure 3: Star schema of the Gold layer showing fact and dimension tables.*
+*Figure 3: Star schema of the Gold layer showing fact and dimension tables.*
 ---
 
 ##  Tools & Resources
