@@ -1,7 +1,11 @@
 # Data Warehouse Project
 ---
+
 ## Project Objective
-The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics-ready environment. The project focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture (Bronze, Silver, and Gold), ensuring the data is accurate, reliable, and well organized for reporting and analysis. As a result, the data warehouse ensures that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
+* The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics-ready environment. 
+* It focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture (Bronze, Silver, and Gold)
+* Establishes data quality checks and verification ensuring the data is accurate, reliable, and well organized for reporting and analysis.
+* As a result, the data warehouse ensures that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
 
 ## Project Scope
 
@@ -34,6 +38,10 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 The data flow in this project follows a structured and layered approach aligned with the Medallion Architecture. Raw data is ingested from source systems into the Bronze layer in batch mode and stored without modification to preserve the original records. The data is then processed in the Silver layer, where cleansing, standardization, validation, and enrichment transformations are applied to improve data quality and consistency. Finally, the refined data is loaded into the Gold layer, where it is modeled into business-ready fact and dimension tables optimized for analytical queries and reporting
 
 <img width="545" height="337" alt="Data Flow Diagram drawio" src="https://github.com/user-attachments/assets/9b3b7d43-b3e1-49c2-a0be-4a6fda7f0336" />
+
+## Data Quality Checks and Validation
+* The project includes scripts to perform data quality checks and verification across the Bronze and Silver layers.
+* These scripts validate completeness, consistency, and accuracy of the ingested data, ensuring that only high quality data is loaded into the Gold layer for modeling and reporting.
 
 ## Data Model
 The data model in this project is designed using a star schema to support efficient analytical querying and reporting. The Gold layer consists of a central fact table that captures transactional sales data, surrounded by multiple dimension tables that provide descriptive context such as customer and product information. This modeling approach simplifies complex queries, improves query performance, and ensures consistency in business metrics. By separating measurable facts from descriptive attributes, the star schema provides a scalable and analytics-ready foundation for downstream reporting and business intelligence use cases.
