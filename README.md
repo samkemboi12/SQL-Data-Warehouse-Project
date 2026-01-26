@@ -1,8 +1,8 @@
 # Data Warehouse Project
-## Project Objective
-
-**The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics ready environment.The project focuses on data ingestion, cleansing, standardization, and modeling using the Medallion Architecture (Bronze, Silver, Gold), ensuring the data is accurate, reliable, and well-organized for reporting and analysis.<br> Therefore, the data warehouse will ensure that the organization’s data is consistent, high-quality, and ready for business intelligence applications.**
 ---
+## Project Objective
+The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics-ready environment. The project focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture (Bronze, Silver, and Gold), ensuring the data is accurate, reliable, and well organized for reporting and analysis. As a result, the data warehouse ensures that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
+
 ## Data Architecture
 
 The project implements the **Medallion Architecture** with **Bronze, Silver, and Gold layers**:
