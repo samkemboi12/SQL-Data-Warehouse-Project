@@ -43,7 +43,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 
 <img width="545" height="337" alt="Data Flow Diagram drawio" src="https://github.com/user-attachments/assets/9b3b7d43-b3e1-49c2-a0be-4a6fda7f0336" />
 
-*Figure 2: shows the flow of data from raw ingestion in the Bronze layer to analytics-ready tables in the Gold layer.*
+*Figure 2: Shows the flow of data from raw ingestion in the Bronze layer to analytics-ready tables in the Gold layer.*
 ## Data Quality Checks and Validation
 * The project includes scripts to perform data quality checks and verification across the Bronze and Silver layers.
 * These scripts validate completeness, consistency, and accuracy of the ingested data, ensuring that only high quality data is loaded into the Gold layer for modeling and reporting.
@@ -56,6 +56,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 <img width="596" height="375" alt="Data_Model(Star_schema) drawio" src="https://github.com/user-attachments/assets/d6f62491-792b-4018-b1d3-7c67a885d840" />
 
 *Figure 3: Star schema of the Gold layer showing fact and dimension tables.*
+
 ---
 
 ##  Tools & Resources
