@@ -40,14 +40,6 @@ The data model in this project is designed using a star schema to support effici
 
 <img width="596" height="375" alt="Data_Model(Star_schema) drawio" src="https://github.com/user-attachments/assets/d6f62491-792b-4018-b1d3-7c67a885d840" />
 
-## Implemented Skills 
-
-* SQL Development & Optimization
-* Data Architecture & Warehouse Design
-* ETL Pipeline Creation
-* Data Modeling & Star Schema Design
-* Business Analytics & Reporting
-
 ---
 
 ##  Tools & Resources
@@ -61,28 +53,13 @@ All tools used in this project :
 * **Draw.io :** Design data flows, architecture diagrams, and models.
 * **Trello:** Planning and progress tracking tool.
 ---
+## Implemented Skills 
 
-**Key Specifications:**
-
-* **Sources:** ERP and CRM CSV files.
-* **Data Quality:** Cleanse, validate, and resolve data issues.
-* **Integration:** Merge both sources into a unified, analysis-ready data model.
-* **Scope:** Latest dataset only; historical tracking is optional.
-* **Documentation:** Include clear documentation for stakeholders and analytics teams.
----
-
-### Data Analysis: BI & Reporting
-
-**Objective:**
-Develop SQL-based analytics to deliver actionable insights on:
-
-* **Customer Behavior:** Trends, segmentation, and engagement metrics.
-* **Product Performance:** Sales, categories, and lifecycle analysis.
-* **Sales Trends:** Daily, monthly, and overall revenue trends.
-
-These insights empower business stakeholders to make **strategic decisions** backed by data.
-
-
+* SQL Development & Optimization
+* Data Architecture & Warehouse Design
+* ETL Pipeline Creation
+* Data Modeling & Star Schema Design
+* Business Analytics & Reporting
 ---
 ### Contact Info:
 For more information, please contact me through : samkemboi201@gmail.com or <br>
