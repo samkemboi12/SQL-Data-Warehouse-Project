@@ -1,12 +1,6 @@
-Ahh, I see the issue 👍 — GitHub needs **pure Markdown tables** with proper pipes and spacing. Here’s a **clean, copy-paste-ready version** that will render perfectly in GitHub.
+# Data Catalog
 
-You can paste this directly into your `.md` file 👇
-
----
-
-# Data Catalog – Gold Layer
-
-## Overview
+## Description
 
 The **Gold Layer** contains business-ready data modeled to support reporting, dashboards, and advanced analytics. The data is organized into **dimension tables** and **fact tables** to enable efficient querying and consistent business definitions.
 
@@ -80,11 +74,5 @@ Holds transactional sales records and serves as the primary fact table for reven
 | price         | INT          | Selling price per unit.                              |
 
 ---
-
-If you want, I can also:
-
-* Convert this to **docs-style data catalog**
-* Add **primary key / foreign key notes**
-* Align wording with **enterprise data warehouse standards**
-
-Just say the word 👌
+The Gold Layer serves as the final and trusted source of truth within the data warehouse architecture.
+This structured approach enables analysts and stakeholders to efficiently explore customer behavior, product performance, and sales trends while maintaining clear relationships across datasets.
