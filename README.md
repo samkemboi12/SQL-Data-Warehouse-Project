@@ -32,6 +32,7 @@ The project implements the **Medallion Architecture** with **Bronze, Silver, and
 * **Gold Layer:** Business-ready data structured into a **star schema**, optimized for reporting, dashboards, and analytical queries.
 
      <img width="721" height="369" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1885b4eb-9f56-4a3b-99bf-c63bb97b9ccc" />
+     
   *Figure 1: Shows the Medallion Architecture, highlighting the Bronze, Silver, and Gold data layers.*
 
 ---
