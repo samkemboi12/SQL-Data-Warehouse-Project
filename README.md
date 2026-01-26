@@ -2,8 +2,8 @@
 ---
 
 ## Project Objective
-* The objective of this project is to design and implement a data warehouse that consolidates sales data from multiple source systems into a centralized, analytics-ready environment. 
-* It focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture (Bronze, Silver, and Gold)
+* The objective of this project is to design and implement a data warehouse that integrates sales data from Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) source systems into a centralized, analytics ready environment. 
+* It focuses on data ingestion, cleansing, standardization, and data modeling using the Medallion Architecture.
 * Establishes data quality checks and verification ensuring the data is accurate, reliable, and well organized for reporting and analysis.
 * As a result, the data warehouse ensures that the organization’s data is consistent, high-quality, and ready for business intelligence applications.
 
@@ -76,8 +76,8 @@ All tools used in this project :
 ## How to Use this Project
 This project is organized to allow users to easily explore the data warehouse design, scripts, and documentation.
 * Clone the Repository.
-* Set Up the Database; Install SQL Server Express and SQL Server Management Studio (SSMS). Create the database and schemas as defined in the provided SQL scripts.
-* Load Source Data (Bronze Layer); Execute the ingestion scripts to load the ERP and CRM CSV files into the Bronze layer tables without modification.
+* Set Up the Database; Install SQL Server Express and SQL Server Management Studio (SSMS). Create the database and schemas as provided SQL scripts.
+* Load Source Data (Bronze Layer); Execute the ingestion scripts to load the ERP and CRM CSV files into the Bronze layer tables.
 * Run Transformation Scripts (Silver Layer); Execute the Silver layer scripts to perform data cleansing, standardization, validation, and enrichment.
 * Build Analytics Tables (Gold Layer);Run the Gold layer scripts to generate fact and dimension tables modeled using a star schema.
 * Review Data Quality Checks;Use the provided data quality and validation scripts to verify data completeness, accuracy, and consistency across layers.
