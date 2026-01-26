@@ -24,7 +24,6 @@ This project covers the following:
 * **Data Architecture Design:** Implement a modern data warehouse with Bronze, Silver, and Gold layers.
 * **ETL Pipelines:** Extract, transform, and load data from multiple source systems.
 * **Data Modeling:** Build **fact and dimension tables** optimized for analysis and reporting.
-* **Analytics & Reporting:** Generate SQL-based dashboards and reports to provide actionable insights.
 
 ---
 
