@@ -1,7 +1,7 @@
 # Data Warehouse Project
 ---
 ## Business Problem
-Sales and operational data are stored across CRM and ERP systems, making reporting slow, inconsistent, and error-prone. Without a centralized, clean, and reliable data source, business decisions are delayed and insights are unreliable.
+Sales and operational data are stored across multiple CRM and ERP systems, making reporting slow, inconsistent, and error-prone. Without a centralized, clean, and reliable data source, business decisions are delayed and insights are unreliable.
 
 ## Project Objective
 * The objective of this project is to design and implement a data warehouse that integrates sales data from Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) source systems into a centralized, analytics ready environment. 
